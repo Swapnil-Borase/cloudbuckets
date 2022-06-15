@@ -8,4 +8,4 @@ if __name__ == '__main__':
     bucket.storage_class="STANDARD"
     new_bucket=storage_client.create_bucket(bucketname,location="US-EAST1")
 
-    print("Succesfully created")
+    print("Succesfully bucket created")
